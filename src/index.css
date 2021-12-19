@@ -1,15 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #303030;
-  color: #FFFFFF;
+  background-color: #fff;
+  color: #333;
 }
-
+h1, h2, h3 {
+  font-family: 'Fredoka One', sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+h1 {
+  font-size: 4rem;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.container img {
+  max-width: 100%;
+  margin-top: 2rem;
 }
